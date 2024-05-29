@@ -1,0 +1,108 @@
+Date:2/2/26
+Day:monday
+****************************************************************************
+*                             GUJRAT RAILWAY                               *
+****************************************************************************
+*                              TRAIN TICKET                                *
+****************************************************************************
+Passenger Name      :me
+Phone number       :1234567897     				Departure City        :surat          
+Destination City   :bhuj           				Distance              :567Km
+Time               :11Hr						Journey Date      :12/2/56        
+Journey Time       :11             				Age                   :23             
+Total passenger    :5              
+				Total male passenger  :4              
+				Total female passenger:1              
+						Your final price is :510.3Rs
+***************************************************************************
+
+--------------------------------------------------------------------------------------------
+Date:12/2/266
+Day:sad
+****************************************************************************
+*                             GUJRAT RAILWAY                               *
+****************************************************************************
+*                              TRAIN TICKET                                *
+****************************************************************************
+Passenger Name         :dkado
+Phone number          :1235467897     				Departure City        :surat          
+Destination City      :rajkot         				Distance              :456Km
+Time                  :9 Hr						Journey Date      :12/5/66        
+Journey Time          :9              				Age                   :5              
+Total passenger       :10             				Total male passenger  :9              
+Total female passenger:1              
+						Your final price is :0Rs
+***************************************************************************
+
+--------------------------------------------------------------------------------------------
+Date:12/12/56
+Day:monday
+****************************************************************************
+*                             GUJRAT RAILWAY                               *
+****************************************************************************
+*                              TRAIN TICKET                                *
+****************************************************************************
+Passenger Name         :meet
+Phone number          :1235467897     				Departure City        :surat          
+Destination City      :rajkot         				Distance              :456Km
+Time                  :9 Hr    						Journey Date      :12/2/56        
+Journey Time          :9              				Age                   :12             
+Total passenger       :4              				Total male passenger  :3              
+Total female passenger:212            
+						Your final price is :319.2Rs
+***************************************************************************
+
+--------------------------------------------------------------------------------------------
+
+Date:12/12/56
+Day:monday
+****************************************************************************
+*                             GUJRAT RAILWAY                               *
+****************************************************************************
+*                              TRAIN TICKET                                *
+****************************************************************************
+Passenger Name         :mmp
+Phone number          :1235467897     				Departure City        :surat          
+Destination City      :rajkot         				Distance              :456Km
+Time                  :9 Hr    						Journey Date      :1/5/66         
+Journey Time          :9              				Age                   :12             
+Total passenger       :2              				Total male passenger  :1              
+Total female passenger:1              
+						Your final price is :410.4Rs
+***************************************************************************
+
+Date:12/12/56
+Day:das
+****************************************************************************
+*                             GUJRAT RAILWAY                               *
+****************************************************************************
+*                              TRAIN TICKET                                *
+****************************************************************************
+Passenger Name         :dss
+Phone number          :1234567894     				Departure City        :surat          
+Destination City      :rajkot         				Distance              :456Km
+Time                  :9 Hr    						Journey Date      :12/12/29       
+Journey Time          :9              				Age                   :1              
+Total passenger       :2              				Total male passenger  :1              
+Total female passenger:1              
+						Your final price is :410.4Rs
+***************************************************************************
+
+Date:12/2/24
+Day:monday
+****************************************************************************
+*                             GUJRAT RAILWAY                               *
+****************************************************************************
+*                              TRAIN TICKET                                *
+****************************************************************************
+Passenger Name         :meet
+Phone number          :1234567891     				Departure City        :godhra         
+Destination City      :ahemdabad      				Distance              :223Km
+Time                  :3 Hr    						Journey Date      :12/3/25        
+Journey Time          :3              				Age                   :18             
+Total passenger       :2              				Total male passenger  :1              
+Total female passenger:1              
+						Your final price is :178.4Rs
+***************************************************************************
+
+--------------------------------------------------------------------------------------------
