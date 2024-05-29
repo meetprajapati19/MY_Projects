@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: #D1C0AC;
+}
+body{
+    background-color: #c1bab4;
+}
+.main{
+    width: 25vw;
+    height: 80vh;
+    background-image: url(back4.png);
+    background-size: cover;
+    position: relative;
+    top: 10vh;
+    left: 37.5vw;
+    border-radius: 10px;
+    
+}
+.main:hover{
+    box-shadow: 5px 5px 20px 5px #938a83;
+    scale: 1.002;
+}
+
+.main .text {
+    position: relative;
+    width:22vw;
+    height: 8vh;
+    align-content: center;
+    background-color: #1b1714c1;
+
+    top: 5vh;
+    left: 1.5vw;
+    border-radius: 10px;
+}
+.main .text h1{
+    padding: 10px 95px;
+    
+}
+.inputs{
+    position: relative;
+    top: 9vh;
+    height: 5vh;
+    background-color: #1b1714c1;
+    
+    border-radius: 10px;
+}
+.inputs input{
+    background: transparent;
+    border: none;
+    border-bottom :0.8px solid #D1C0AC;
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-bottom: 3px;
+    outline: none;
+    width: 20vw;
+    margin-inline: 10px ;
+    margin-top: 15px;
+    caret-color: #D1C0AC;
+}
+.inputs input::placeholder{
+    color:#D1C0AC;
+}
+/* .buton{
+position: relative;
+top: 7vh;
+
+} */
+
+ button{
+    position: relative;
+    top: 11vh;
+    width: 22vw;
+    background-color: #1b1714c1;
+    border: none;
+    height:4vh;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.lists{
+    position: relative;
+    top: 14vh;
+    
+   
+    margin-top: 10px;
+    
+}
+.lists ul li{
+    list-style: none;
+    background-color: #1b1714c1;
+    font-size:large;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    
+}
+.lists ul li i{
+    padding:10px 10px ;
+}
+.lists ul li span{
+    position: absolute;
+    right: 0;
+    padding:  10px;
+    cursor: pointer;
+}
