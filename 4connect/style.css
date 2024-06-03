@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    text-align: center;
+}
+#board{
+    height: 540px;
+    width: 630px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    background-color: blue;
+    border: 10px solid navy;
+}
+.tile{
+    height: 70px;
+    width: 70px;
+    margin: 5px;
+    background-color: white;
+    border-radius: 50%;
+    border: 5px solid navy;
+}
+.red-piece{
+    background-color: red;
+}
+.yellow-piece{
+    background-color: yellow;
+}
