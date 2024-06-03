@@ -6,27 +6,59 @@
 
 body{
     text-align: center;
+    background-image: url(body_background.png);
+    
+   
+}
+#Game_and_Status{
+    display: flex;
+    position: relative;
+    
+}
+h1{
+    color: white;
+    margin: 20px;
 }
 #board{
+    background-image: url(box_background.png);
     height: 540px;
     width: 630px;
     display: flex;
     flex-wrap: wrap;
-    margin: 0 auto;
+    margin-left: 300px;
     background-color: blue;
-    border: 10px solid navy;
+    border: 10px solid #bcb6b67f;
 }
 .tile{
     height: 70px;
     width: 70px;
     margin: 5px;
-    background-color: white;
+    background-color: #bcb6b67f;
     border-radius: 50%;
-    border: 5px solid navy;
+    border: 5px solid #bcb6b67f;
+    
 }
 .red-piece{
     background-color: red;
 }
 .yellow-piece{
     background-color: yellow;
+}
+#status{
+    position: absolute;
+    right: 30px;
+
+    height: 540px;
+    width: 300px;
+    
+    border: 10px solid #bcb6b67f;
+}
+#status h1{
+    background-color: #bcb6b67f;
+  padding: 20px 30px;
+  border-radius: 10px;
+
+}
+#winner{
+    color: white;
 }
