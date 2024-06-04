@@ -9,14 +9,21 @@
 </head>
 
 <body>
-    <h1>Connect 4</h1>
     <div id="Game_and_Status">
-        
+
         <div id="board"></div>
         <div id="status">
             <h1>Winner Status</h1>
-            <h2 id="winner"></h2>
+            <div id="scroll">
+                <h2 id="winner"></h2>
+            </div>
+            <button id="calculate" onclick="finalresult()">Calculate Result</button>
         </div>
+    </div>
+    <div id="popup">
+        <h1>Game Over</h1>
+        <h2 id="popup_winner"></h2>
+        <button id="restart" onclick="restart()">Restart</button>
     </div>
     <script src="script.js"></script>
 </body>

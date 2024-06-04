@@ -6,6 +6,8 @@ let row = 6;
 let column = 7;
 var board;
 let gameover = false;
+let redcount=0;
+let yellowcount=0;
 
 window.onload = function () {
     setgame();
@@ -103,10 +105,78 @@ function checkwinner() {
 
 function setwinner(r, c) {
     let win = document.getElementById("winner");
+    let popup_winner=document.getElementById("popup_winner");
+
     if (board[r][c] == redplayer) {
-        win.innerText = "Red win";
+        win.innerText += "Red win\n";
+        popup_winner.innerHTML="Red win ";
+        popup_winner.style.color="red";
+        redcount++;
+        
+        popup_result();
+        
     }
     else {
-        win.innerText = "Yellow win";
+        win.innerText += "Yellow win\n";
+        popup_winner.innerHTML="Yellow win";
+        popup_winner.style.color="yellow";
+        yellowcount++;
+        popup_result();
     }
+}
+
+function popup_result(){
+      let blur=document.getElementById('Game_and_Status');
+      blur.classList.add('active');
+      let popup=document.getElementById('popup');
+      popup.classList.add('active');
+}
+
+
+function restart(){
+    let blur=document.getElementById('Game_and_Status');
+    blur.classList.toggle('active');
+      let popup=document.getElementById('popup');
+      popup.classList.toggle('active');
+      deleteChild() ;
+      setgame();
+}
+
+function deleteChild() {
+    let e = document.getElementById("board"); 
+    let child = e.lastElementChild;
+    while (child) {
+        e.removeChild(child);
+        child = e.lastElementChild;
+    }
+}
+
+
+
+function finalresult(){
+    let popup_winner=document.getElementById("popup_winner");
+   
+   
+     if(redcount>yellowcount){
+        popup_winner.innerHTML="Red win :- "+ redcount+"    Yellow win :- " + yellowcount +"<br>"+"winner is :-" ;
+        popup_winner.innerHTML +="RED"
+    }
+    else if(redcount==yellowcount && redcount!=0){
+        popup_winner.innerHTML="Red win :- "+ redcount+"    Yellow win :- " + yellowcount +"<br>"+"winner is :-" ;
+        popup_winner.innerHTML +="BOTH"
+    }
+    else if(redcount==0 && yellowcount==0){
+
+        popup_winner.innerHTML ="PLAY GAME"
+        document.getElementById('restart').innerHTML="START GAME"
+    }
+    else{
+        popup_winner.innerHTML="Red win :- "+ redcount+"    Yellow win :- " + yellowcount +"<br>"+"winner is :-" ;
+        popup_winner.innerHTML +="YELLOW";
+    };
+    document.getElementById("winner").innerHTML="";
+    redcount=0;
+    yellowcount=0;
+    popup_result();
+    
 }
