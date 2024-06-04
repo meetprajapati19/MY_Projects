@@ -6,7 +6,7 @@
 
 body {
     text-align: center;
-    background-image: url(body_background.png);
+    background-image: url(Assets/body_background.png);
     background-size: cover;
 
 }
@@ -19,7 +19,7 @@ body {
 }
 
 #board {
-    background-image: url(box_background.png);
+    background-image: url(Assets/box_background.png);
     height: 540px;
     width: 630px;
     display: flex;

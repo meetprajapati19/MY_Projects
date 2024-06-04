@@ -9,7 +9,7 @@ body{
 .main{
     width: 25vw;
     height: 80vh;
-    background-image: url(back4.png);
+    background-image: url(Assets/back4.png);
     background-size: cover;
     position: relative;
     top: 10vh;
